@@ -71,7 +71,7 @@ https 的代码写法：node2-imooc/promise/https.js
 
 * 并发控制，同时去爬 Promise.all();
 
-## promise 化的爬虫项目(const 和 var 的区别是什么？)
+## promise 化的爬虫项目
 
 node2-imooc/promise/promise_crawler.js
 
@@ -91,9 +91,7 @@ node2-imooc/promise/promise_crawler.js
 
 坑 2：慕课网现在用 https 协议了，不是课程中的 HTTP
 
-#### promise 写的爬虫项目巨型大坑
-
-##### 大型 bug
+## promise 写的爬虫项目巨型大坑
 
 ```bash
 (node:36099) UnhandledPromiseRejectionWarning: TypeError: Cannot read property 'parent' of undefined
