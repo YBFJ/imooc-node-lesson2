@@ -85,7 +85,7 @@ node2-imooc/promise/promise_crawler.js
 
 每个 Promise 对象中发起两个 https 请求，分别用来获取该课程的学习人数和课程的章节信息的 HTML 代码。最后将学习人数和原网页代码一并交给 resolve()进一步处理。
 
-原文: https://niuyi1017.github.io/2018/09/10/http-crawler.html
+别人的排坑文: https://niuyi1017.github.io/2018/09/10/http-crawler.html
 
 坑 1： 人数是用 ajax 获取的普通的 url 是得不到的，代码看的[别人的](https://niuyi1017.github.io/2018/09/10/http-crawler.html)表示我这里还没搞清楚
 
