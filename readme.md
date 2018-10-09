@@ -65,8 +65,6 @@ https 的代码写法：node2-imooc/promise/https.js
 
 <img src="HTTP和HTTPS.png" alt="HTTP 和 HTTPS">
 
-<img src="./模块的流程.png" alt="模块的流程">
-
 - https 协议是在 http 协议的基础上添加了 SSL 和 TLS
 
 * https 模块主要是处理加密访问的。搭建 https 的时候需要 ssl 证书。
